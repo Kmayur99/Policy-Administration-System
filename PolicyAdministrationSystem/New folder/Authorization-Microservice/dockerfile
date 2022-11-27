@@ -1,0 +1,3 @@
+FROM openjdk:8
+ADD target/Authorizatiion-Microservice.jar Authorizatiion-Microservice.jar
+ENTRYPOINT ["java", "-jar" ,"Authorizatiion-Microservice.jar"]

@@ -1,0 +1,36 @@
+
+<div class="container" >
+    <div class="screen">
+        
+        <div class="screen__content">
+
+
+            <form (ngSubmit)="onSubmit(loginForm.value)" #loginForm="ngForm" class="login">
+                <h2 class="text-uppercase">Policy Administration System</h2>
+                <br>
+                
+               <!-- <mat-form-field appearance="fill"> -->
+                <div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+                    <input type="text" class="login__input"  placeholder="Enter your username" name="userName" id="userName" ngModel >
+                </div>
+                    
+                
+                <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                    <input type="password" class="login__input"  placeholder="Enter your password" name="password" id="password" ngModel >
+                  <!--  <mat-form-field> -->
+                </div>
+                <button type="submit" class="button login__submit">Login</button>
+                
+            </form>
+        </div>
+        <div class="screen__background">
+			<span class="screen_backgroundshape screenbackground_shape4"></span>
+			<span class="screen_backgroundshape screenbackground_shape3"></span>		
+			<span class="screen_backgroundshape screenbackground_shape2"></span>
+			<span class="screen_backgroundshape screenbackground_shape1"></span>
+        </div>
+        
+    </div>
+</div>

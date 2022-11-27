@@ -1,0 +1,183 @@
+@font-face {
+    font-family: rajdhani-bold;
+    src: url("/fonts/Rajdhani-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: rajdhani-light;
+    src: url("/fonts/Rajdhani-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: rajdhani-medium;
+    src: url("/fonts/Rajdhani-Medium.ttf");
+  }
+  
+  body {
+      overflow-x: hidden;
+      
+  }
+
+  .container {
+    background: linear-gradient(90deg, #c9c5f4, #bed111);	
+  }
+  
+  input {
+    width: 100%;
+    min-height: 25px;
+    border: 0;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    color: black;
+    
+}
+
+
+  /*============================= HEADER STYLES ===================================/*/
+  header {
+      width: 100%;
+      height: 85px;
+      background: white;
+      position: fixed;
+      top: 0px;
+  }
+  
+  
+  /*/============================= LOGIN PAGE STYLES ==============================/*/
+  
+  .form {
+      padding-top: 27.2vh;
+  }
+  
+  .form__title {
+      font-family: rajdhani-bold, sans-serif;
+      font-size: 3.5em;
+  }
+  
+  .form__subtitle {
+      font-family: rajdhani-medium, sans-serif;
+      color: #747b81;
+  }
+  
+  .form-control {
+      font-family: rajdhani-medium, sans-serif;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-bottom: 1px solid #747b81;
+      border-radius: 0px;
+      outline: none;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+  
+  }
+  
+  .form-control:active, .form-control:focus {
+      box-shadow: none !important;
+      border-bottom: 1px solid #4a4a4a;
+  }
+  
+  .form__button {
+      padding: 5px 10px 5px 10px;
+      font-family: rajdhani-bold;
+      color: black;
+      letter-spacing: 1px;
+      background: rgba(255, 255, 255, 0.79);
+      border: 0.5px solid #2e2e3d;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+      border-radius: 25px;
+      text-decoration: none;
+      
+  }
+  
+  .form__button:hover {
+      color: white;/*#3d015ba0;*/
+      transition: all 0.3s ease;
+      background: #a1ea97;
+      border: 1px solid #15151b;
+  }
+  
+  .shadow {
+      box-shadow: 0 17px 51px 0 rgba(0, 0, 0, 0.44);
+  }
+
+  
+ 
+  
+  
+  /*/============================ HOME PAGE STYLE ===================================/*/
+  
+  .home{
+          padding-top: 10%;
+      
+  }
+  
+  .kira{
+      font-weight: bold;
+      color: #8a2be2;
+      text-align:center;
+  }
+  
+  table {
+      margin-bottom: 0px !important;
+  }
+  .table th, .table td, .table thead th {
+      padding: 0.75em 8em;
+      border-right: 0px;
+      border-left: 0px;
+      border-top: 0px;
+      border-bottom: 2px solid #2c2c37;
+  }
+  
+  
+  table tbody {
+      border-radius: 25px;
+  }
+  
+  .table-grey {
+      font-family: rajdhani-medium, sans-serif;
+      border-radius: 10px;
+      background: #41434e;
+  }
+  
+  .block-grey {
+      width: 100%;
+      background: #41434e;
+      border-radius: 10px;
+  }
+  
+  .stock {
+      position: relative;
+      font-family: rajdhani-medium;
+      padding: 20px;
+      border-bottom: 2px solid #2c2c37;
+  }
+  
+  .stock__search {
+      font-size: 1em;
+      font-family: rajdhani-medium, sans-serif;
+      color: white;
+      border: none;
+      outline: none;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+      font-family: rajdhani-medium,sans-serif;
+      background: #2c2c37 !important;
+  }
+  
+  
+  .sel-btn {
+      padding: 12px 50px;
+      font-family: rajdhani-bold;
+      color: #2e2e3d;
+      letter-spacing: 2px;
+      background: white;
+      border: 1px solid #2e2e3d;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+      border-radius: 25px;
+  }

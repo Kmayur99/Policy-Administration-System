@@ -1,0 +1,27 @@
+.container {
+	
+	margin-right:auto;
+	margin-left:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+    background: linear-gradient(90deg, #c9c5f4, #c7bdfc);	
+}
+table {
+	width:100%;
+	border:1px solid ;
+    padding: 5px 5px 5px 5px;
+  
+}
+table-header {
+	display:flex;
+	width:100%;
+	background:rgba(48, 47, 47, 0);
+	
+}
+tr {
+	/*display:flex;*/
+	width:100%;
+	background:rgba(184, 180, 180, 0);
+	}
